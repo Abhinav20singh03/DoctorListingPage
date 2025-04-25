@@ -1,0 +1,13 @@
+.app {
+  font-family: Arial, sans-serif;
+}
+
+ .main {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 40px;
+  
+}

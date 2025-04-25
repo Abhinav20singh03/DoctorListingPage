@@ -1,0 +1,45 @@
+.header {
+    padding: 16px;
+    background-color: #005EAB;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .search-input {
+    padding: 20px;
+    width: 50%;
+    outline: none;
+  box-shadow: none;
+  
+  }
+  
+  .suggestions {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    max-width: 50%;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .suggestions li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestions li:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .suggestion-name {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .suggestion-speciality {
+    font-size: 12px;
+    color: #777;
+  }
+  

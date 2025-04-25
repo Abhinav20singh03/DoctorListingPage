@@ -1,0 +1,86 @@
+.doctor-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  
+  .left-section {
+    display: flex;
+  }
+  
+  .doctor-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .doctor-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .doctor-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .doctor-speciality,
+  .doctor-degree,
+  .doctor-experience {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 4px;
+  }
+  
+  .clinic-line {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .icon {
+    margin-right: 6px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .fees {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .book-btn {
+    padding: 6px 16px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .book-btn:hover {
+    background: #007bff;
+    color: white;
+  }
+  
